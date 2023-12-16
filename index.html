@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="container">
+        <form action="">
+            <p>CASIO</p>
+            <input type="text" id="screen">
+            <br>
+
+            <input type="button" class="number btn" value="7" onclick="btnClick(value)">
+            <input type="button" class="number btn" value="8" onclick="btnClick(value)">
+            <input type="button" class="number btn" value="9" onclick="btnClick(value)">
+            <input type="button" class="operator btn" value="/" onclick="btnClick(value)">
+
+
+            <br>
+            <input type="button" class="number btn" value="4" onclick="btnClick(value)">
+            <input type="button" class="number btn" value="5" onclick="btnClick(value)">
+            <input type="button" class="number btn" value="6" onclick="btnClick(value)">
+            <input type="button" class="operator btn" value="*" onclick="btnClick(value)">
+
+
+            <br>
+            <input type="button" class="number btn" value="1" onclick="btnClick(value)">
+            <input type="button" class="number btn" value="2" onclick="btnClick(value)">
+            <input type="button" class="number btn" value="3" onclick="btnClick(value)">
+            <input type="button" class="operator btn" value="+" onclick="btnClick(value)">
+
+
+            <br>
+            <input type="button" class="number btn" value="00" onclick="btnClick(value)">
+            <input type="button" class="number btn" value="0" onclick="btnClick(value)">
+            <input type="button" class="number btn" value="." onclick="btnClick(value)">
+            <input type="button" class="operator btn" value="-" onclick="btnClick(value)">
+
+            <br>
+            <input type="button" class="clear btn" value="C" onclick="clearScreen()">
+            <input type="button" class="de btn" value="DE" onclick="deleteNUm()">
+            <input type="button" class="result btn" value="=" onclick="findResult()">
+            <br>
+
+
+        </form>
+
+
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
